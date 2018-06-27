@@ -31,6 +31,7 @@
 
 # URL of Kolla Ansible source code repository if type is 'source'.
 #kolla_ansible_source_url:
+kolla_ansible_source_url: http://10.0.0.8:81/github/openstack/kolla-ansible
 
 # Version (branch, tag, etc.) of Kolla Ansible source code repository if type
 # is 'source'.
