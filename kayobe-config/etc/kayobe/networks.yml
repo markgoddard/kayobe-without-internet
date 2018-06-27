@@ -62,6 +62,10 @@ admin_cidr: 10.0.0.0/24
 admin_allocation_pool_start: 10.0.0.100
 admin_allocation_pool_end: 10.0.0.101
 admin_gateway:
+admin_routes:
+  # Static route to IP subnet hosting PyPI & co
+  - cidr: 151.101.0.0/16
+    gateway: 10.0.0.1
 
 # All-in-one network.
 aio_cidr: 192.168.33.0/24
