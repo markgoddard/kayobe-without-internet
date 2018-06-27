@@ -1,0 +1,5 @@
+admin_ips:
+  controller0: 10.0.0.4
+  seed: 10.0.0.3
+aio_ips:
+  controller0: 192.168.33.3
